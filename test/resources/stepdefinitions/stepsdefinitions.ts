@@ -45,6 +45,10 @@ Then('The Output values must fit inputs', async () => {
     await textBoxInteraction.verifyOutput();
 });
 
+Then('Email input shows an error', async () => {
+    await textBoxInteraction.verifyEmailError();
+});
+
 
 
 

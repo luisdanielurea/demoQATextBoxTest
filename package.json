@@ -13,8 +13,6 @@
         "presentation-test-build": "tsc --skipLibCheck",
         "presentation-test-clean": "rimraf dist/out-tsc/test/",
         "presentation-test-clean-build": "npm run presentation-test-clean && npm run presentation-test-build",
-        "webdriver-update": "webdriver-manager update --versions.chrome=75.0.3770.140",
-        "webdriver-update-AWS": "webdriver-manager update --gecko=false --versions.chrome=86.0.4240.22",
         "webdriver-update-local": "webdriver-manager update --versions.chrome=91.0.4472.124",
         "webdriver-start": "webdriver-manager start",
         "webdriver-clean": "webdriver-manager clean"

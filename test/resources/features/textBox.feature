@@ -115,3 +115,4 @@ Feature: Text box validation for QA Demo
   Scenario: Fill an incorrect email format
     When Input an incorrect email format
     And Click on submit button
+    Then Email input shows an error
