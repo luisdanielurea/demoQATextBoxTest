@@ -1,5 +1,7 @@
+# DemoQA Text Box Test
 
-This repo contains
+
+## This repo contains
 
 /test/presentation-test-core
   Core classes functions for general frontend testing with typescript
@@ -24,6 +26,8 @@ test/resources/stepdefinitions
 
 -------------------------------------------------------------------------------------
 
+## Execution
+
 To executes test scenarios you need to:
 
 1 - Clone repo into local
@@ -45,3 +49,9 @@ webdriver-manager update --versions.chrome={local Google Chrome version}
 4 - To run test
 
 npm run presentation-test-clean-build && npm run presentation-test -- --params.headless=true 
+
+---------------------------------------------------------------------------------------------
+
+## Current status
+
+Feature file "textBox.feature" includes 15 scenarios with all posible valid input combinations and 1 failed verification scenario for email bad input 
