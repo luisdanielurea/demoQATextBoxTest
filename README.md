@@ -34,7 +34,9 @@ git clone https://github.com/luisdanielurea/demoQATextBoxTest
 3 - Run the following commands in terminal to install packages and compile
 
 npm install
+
 npm run webdriver-clean
+
 webdriver-manager update --versions.chrome={local Google Chrome version}
 
 ![image](https://user-images.githubusercontent.com/10211692/125174470-0f377900-e1c6-11eb-917e-0bedaa7a781f.png)
