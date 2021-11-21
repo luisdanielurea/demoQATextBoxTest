@@ -11,7 +11,7 @@ Feature: Text box validation for QA Demo
     And Input random address on Current Address
     And Input random address on Permanent Address
     And Click on submit button
-    Then The Output values must fit inputs
+    Then The Output values must fit inputs 
 
 
   Scenario: Fill all values except Permanent Address on text boxes
